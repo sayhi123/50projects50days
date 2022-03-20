@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');##@import 文件引入 引入googleapis的字体
 
 * {
-  box-sizing: border-box;
+  box-sizing: border-box;## box-sizing 规定两个并排的框
 }
 
 body {
   font-family: 'Muli', sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: flex;##设置元素生成框的类型,flex 提供弹性布局,为盒状模型提供很大的灵活性
+  align-items: center;##定义flex子项在flex容器的当前行的侧轴（纵轴）方向上的对齐方式。
+  justify-content: center;##设置元素的对齐方式
   height: 100vh;
-  overflow: hidden;
-  margin: 0;
+  overflow: hidden;##控制内容溢出元素框时的显示状态,一般是visible hidden的话 内容会被修剪
+  margin: 0;##属性在一个声明中设置所有外边距属性。该属性可以有 1 到 4 个值
 }
 
 .container {
